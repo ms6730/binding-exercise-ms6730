@@ -11,4 +11,3 @@ def test_simple():
     assert a.shape == (1000, 2)
     assert a[0] == approx([1, 0])
     assert a[-1] == approx([-0.88790741, 0.56273912])
-
